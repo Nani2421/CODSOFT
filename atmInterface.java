@@ -4,7 +4,7 @@ public class atmInterface {
 
     public static class BankAccount { 
 
-        private double balance;
+        public double balance;
 
         public BankAccount(double initialBalance) {
             this.balance = initialBalance;
@@ -30,7 +30,7 @@ public class atmInterface {
 
     public static class ATM {
 
-        private BankAccount account;
+        public BankAccount account;
 
         public ATM(BankAccount account) {
             this.account = account;
